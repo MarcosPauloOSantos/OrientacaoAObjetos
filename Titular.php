@@ -13,10 +13,10 @@ public function __construct(CPF $cpf,$nome)
     $this -> validaNome ($nome);
 }
 
-public function RecuperaCpf():string
-    {
-       return $this -> cpf -> RecuperaCpf();
-    }
+public function recuperaCpf(): string
+{
+    return $this->cpf->recuperaNumero();
+}
 
  public function RecuperaNome(string $nome):void
 

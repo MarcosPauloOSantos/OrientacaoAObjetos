@@ -7,11 +7,11 @@ require_once 'C:\Users\mpmar\OneDrive\Documentos\php orientação obijeto\src\Ti
 
 
 
-$marcos = new Titular (new CPF ('12550162994'),'marddd');
+$marcos = new Titular (new CPF ('125.501.629-94'),'marddd');
 $primeiraConta = new Conta ($marcos);
-$joyce = new Titular (new CPF ('1255016994'),'maddvdfr');
+$joyce = new Titular (new CPF ('123.333.333-33'),'maddvdfr');
 $segundaConta = new Conta ($joyce);
-$pedro = new Titular (new CPF ('1255016294'),'mdwefwear');
+$pedro = new Titular (new CPF ('333.333.333-33'),'mdwefwear');
 $terceiraConta = new Conta ($pedro);
 
 echo Conta:: RecuperarNumeroDeContas();
